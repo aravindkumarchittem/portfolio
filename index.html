@@ -368,21 +368,20 @@
         <div class="hero-content">
             <div class="typewriter-text">~$ whoami</div>
             <h1>Chittem Aravind Kumar</h1>
-            <h2 style="border: none; padding: 0; margin-bottom: 1rem; color: var(--accent); font-size: 1.5rem;">B.Tech Graduate | Cybersecurity & Software Engineering</h2>
-            <p class="subtitle">I am a Computer Science graduate specializing in Information Security from Vellore Institute of Technology (VIT). I am eager to contribute to cybersecurity, software engineering, or product-focused roles where I can solve real-world challenges.</p>
+            <h2 style="border: none; padding: 0; margin-bottom: 1rem; color: var(--accent); font-size: 1.5rem;">Cybersecurity Intern at Signzy</h2>
+            <p class="subtitle">I am a Computer Science graduate specializing in Information Security from Vellore Institute of Technology (VIT). Currently, I am beginning my professional career as a Cybersecurity Intern at Signzy Technologies in Bangalore, eager to solve real-world challenges.</p>
             
             <div class="stats">
                 <div class="stat-item">
                     <strong>CGPA:</strong> 8.30
                 </div>
                 <div class="stat-item">
-                    <strong>Location:</strong> Ongole, AP
+                    <strong>Location:</strong> Bangalore, KA
                 </div>
             </div>
         </div>
         
         <div class="hero-image-container">
-            <!-- Ensure your photo is named "passport photo.jpg" and is in the same folder as this HTML file -->
             <img src="passport photo.png" alt="Chittem Aravind Kumar" class="hero-image">
         </div>
     </section>
@@ -390,7 +389,7 @@
     <section id="about" class="reveal">
         <h2>About Me</h2>
         <div class="card">
-            <p style="margin-bottom: 1rem;">I am a Computer Science graduate specializing in Information Security from Vellore Institute of Technology (VIT), with hands-on experience in cybersecurity, secure software development, and product-focused problem solving.</p>
+            <p style="margin-bottom: 1rem;">I am a Computer Science graduate specializing in Information Security from Vellore Institute of Technology (VIT). I recently started my career as a Cybersecurity Intern at Signzy Technologies, building upon my hands-on experience in vulnerability assessment, secure software development, and product-focused problem solving.</p>
             <p style="margin-bottom: 1rem;">Beyond technical expertise, I believe in taking initiative, owning responsibilities, and seeing tasks through to completion. I enjoy working in fast-paced environments, remain calm under pressure, and adapt quickly to new challenges. I value collaboration, communicate effectively with teammates, and actively contribute wherever needed, making me a dependable and proactive team player.</p>
             <p>I also enjoy analyzing products and systems from both technical and user perspectives—understanding workflows, identifying security and usability issues, and delivering practical, data-driven improvements. Passionate about continuous learning, I am eager to create meaningful impact in the tech industry.</p>
         </div>
@@ -398,6 +397,18 @@
 
     <section id="experience" class="reveal">
         <h2>Experience</h2>
+        
+        <!-- NEW EXPERIENCE: SIGNZY -->
+        <div class="card" style="margin-bottom: 2rem;">
+            <h3>Cybersecurity Intern</h3>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem;"><strong>Signzy Technologies</strong> | Aug 2026 – Present | Bangalore, Karnataka</p>
+            <ul class="dashed">
+                <li>Collaborating with the security team to monitor systems and participate in proactive threat detection.</li>
+                <li>Assisting in vulnerability assessments, security operations, and the implementation of secure best practices.</li>
+            </ul>
+        </div>
+
+        <!-- PREVIOUS EXPERIENCE: SITHAFAL -->
         <div class="card">
             <h3>Cybersecurity Intern (VAPT & SOC Operations)</h3>
             <p style="color: var(--text-muted); margin-bottom: 1.5rem;"><strong>Sithafal Technologies</strong> | May 2025 – July 2025 | Tirupati, AP</p>
@@ -585,333 +596,3 @@
     </script>
 </body>
 </html>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chittem Aravind Kumar - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg-color: #121212; /* Deep charcoal */
-            --text-main: #e0e0e0;
-            --text-muted: #888888;
-            --accent: #39ff14; /* Neon Green */
-            --card-bg: #1e1e1e;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'JetBrains Mono', monospace;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        a {
-            color: var(--accent);
-            text-decoration: none;
-            transition: 0.3s;
-        }
-
-        a:hover {
-            text-shadow: 0 0 8px var(--accent);
-        }
-
-        header {
-            padding: 2rem 10%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #333;
-            position: sticky;
-            top: 0;
-            background: var(--bg-color);
-            z-index: 1000;
-        }
-
-        nav ul {
-            display: flex;
-            gap: 1.5rem;
-            list-style: none;
-        }
-
-        nav ul li a {
-            color: var(--text-main);
-            font-size: 0.9rem;
-        }
-
-        nav ul li a:hover {
-            color: var(--accent);
-        }
-
-        section {
-            padding: 5rem 10%;
-        }
-
-        h1, h2, h3 {
-            color: var(--text-main);
-            margin-bottom: 1rem;
-        }
-
-        h2 {
-            font-size: 2rem;
-            border-left: 4px solid var(--accent);
-            padding-left: 10px;
-            margin-bottom: 2rem;
-        }
-
-        .hero {
-            min-height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            color: var(--accent);
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin-bottom: 1.5rem;
-            color: var(--text-muted);
-        }
-
-        .stats {
-            display: flex;
-            gap: 2rem;
-            margin-top: 1rem;
-        }
-
-        .stat-item {
-            background: var(--card-bg);
-            padding: 10px 20px;
-            border-radius: 4px;
-            border: 1px solid #333;
-        }
-
-        .grid-2 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-        }
-
-        .card {
-            background: var(--card-bg);
-            padding: 2rem;
-            border-radius: 4px;
-            border: 1px solid #333;
-            transition: transform 0.2s, border-color 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent);
-        }
-
-        .card h3 {
-            color: var(--accent);
-        }
-
-        .tag-container {
-            margin-top: 1rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .tag {
-            background: rgba(57, 255, 20, 0.1);
-            color: var(--accent);
-            padding: 2px 8px;
-            font-size: 0.8rem;
-            border-radius: 4px;
-            border: 1px solid var(--accent);
-        }
-
-        ul.dashed {
-            list-style-type: none;
-        }
-        
-        ul.dashed li {
-            margin-bottom: 0.5rem;
-        }
-        
-        ul.dashed li::before {
-            content: "> ";
-            color: var(--accent);
-            font-weight: bold;
-        }
-
-        footer {
-            text-align: center;
-            padding: 2rem;
-            border-top: 1px solid #333;
-            margin-top: 2rem;
-        }
-
-        @media (max-width: 768px) {
-            .grid-2 { grid-template-columns: 1fr; }
-            header { flex-direction: column; gap: 1rem; }
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <div class="logo">
-            <a href="#">&gt; C.A.K_</a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <p>~$ whoami</p>
-        <h1>Chittem Aravind Kumar[cite: 1]</h1>
-        <h2>Cybersecurity & Software Developer</h2>
-        <p>I recently graduated with a B.Tech in Computer Science and Engineering (Information Security)[cite: 1]. I enjoy solving real-world problems and continuously improving my technical skills[cite: 1].</p>
-        
-        <div class="stats">
-            <div class="stat-item">
-                <strong>CGPA:</strong> 8.30[cite: 1]
-            </div>
-            <div class="stat-item">
-                <strong>Location:</strong> Ongole, AP[cite: 2]
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am eager to begin my professional career in an environment where I can learn, contribute, and grow while working on meaningful projects[cite: 1]. Beyond technical knowledge, my greatest strengths are my willingness to learn, ability to take initiative, sense of responsibility, and adaptability[cite: 1]. I remain calm under pressure and am always ready to take on new challenges[cite: 1].</p>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="card">
-            <h3>Cybersecurity Intern (VAPT & SOC Operations)[cite: 2]</h3>
-            <p><strong>Sithafal Technologies</strong> | May 2025 – July 2025 | Tirupati, AP[cite: 2]</p>
-            <br>
-            <ul class="dashed">
-                <li>Conducted VAPT on 20+ internal and web applications, identifying security gaps across web applications[cite: 2].</li>
-                <li>Validated exploit proofs-of-concept and involved in remediation cycles, achieving a 100% patch compliance rate for critical vulnerability exposures[cite: 2].</li>
-                <li>Participated in incident response workflows, including threat containment, log analysis, and root-cause investigation[cite: 2].</li>
-                <li>Partnered with dev teams to implement secure configurations, reducing vulnerability resolution time[cite: 2].</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2>Selected Projects</h2>
-        <div class="grid-2">
-            <div class="card">
-                <h3>GuardianX[cite: 2]</h3>
-                <p>Built a hybrid AI safety extension for WhatsApp Web to detect phishing, credentials theft, and cyberbullying in real time[cite: 2]. Designed a high-throughput backend API for message analysis, automated flagging, and dashboard monitoring[cite: 2].</p>
-                <div class="tag-container">
-                    <span class="tag">MongoDB[cite: 2]</span>
-                    <span class="tag">Chrome Extension[cite: 2]</span>
-                    <span class="tag">Machine Learning[cite: 2]</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>EEG-Based Alzheimer's Detection System[cite: 2]</h3>
-                <p>Designed a hybrid ML pipeline to detect Alzheimer's disease by converting raw EEG signals into spike-based SNN representations for 2D CNN classification, achieving 93.85% accuracy[cite: 2]. Applied MNE-Python for preprocessing 50+ EEG signal channels[cite: 2].</p>
-                <div class="tag-container">
-                    <span class="tag">SNN[cite: 2]</span>
-                    <span class="tag">CNN[cite: 2]</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>Recon Domain[cite: 2]</h3>
-                <p>Built an automated reconnaissance framework for DNS, subdomain, and port enumeration, tested across 50+ domains and 1,000+ discovered assets[cite: 2].</p>
-                <div class="tag-container">
-                    <span class="tag">Nmap[cite: 2]</span>
-                    <span class="tag">WHOIS[cite: 2]</span>
-                    <span class="tag">Sublist3r[cite: 2]</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <h2>Skills & Technologies</h2>
-        <div class="grid-2">
-            <div class="card">
-                <h3>Security & Systems[cite: 2]</h3>
-                <p>Vulnerability Assessment & Penetration Testing (VAPT), Incident Response, Network & Web Application Security, SOC Operations[cite: 2].</p>
-                <br>
-                <h3>Tools[cite: 2]</h3>
-                <p>Burp Suite, OWASP ZAP, Nmap, Wireshark, Nessus, Splunk, Metasploit, Postman[cite: 2].</p>
-            </div>
-            <div class="card">
-                <h3>Programming & Databases[cite: 2]</h3>
-                <p>Java, MySQL, REST APIs, Basic Web Technologies[cite: 2].</p>
-                <br>
-                <h3>Core CS[cite: 2]</h3>
-                <p>Networking Fundamentals, Database Systems, OS Fundamentals, Secure SDLC, IAM[cite: 2].</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="education">
-        <h2>Education & Certifications</h2>
-        <div class="card">
-            <h3>Vellore Institute of Technology[cite: 2]</h3>
-            <p>B.Tech in Computer Science and Engineering (Information Security)[cite: 1, 2] | 2022-2026[cite: 2]</p>
-            <p>CGPA: 8.30[cite: 1, 2]</p>
-        </div>
-        <br>
-        <div class="card">
-            <h3>Certifications</h3>
-            <ul class="dashed">
-                <li>AI Security & Governance - Securiti[cite: 2, 4]</li>
-                <li>Jr. Penetration Tester - TryHackMe[cite: 2, 5]</li>
-                <li>Web Fundamentals - TryHackMe[cite: 2, 5]</li>
-                <li>API Security Fundamentals '25 - APISEC University[cite: 3]</li>
-                <li>Full Stack Development - Imarticus Learning[cite: 2]</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Initiate Connection</h2>
-        <div class="card">
-            <p>I would sincerely appreciate the opportunity to discuss how my skills, enthusiasm, and dedication can contribute to your organization[cite: 1].</p>
-            <br>
-            <ul class="dashed">
-                <li><strong>Email:</strong> <a href="mailto:aravindch156@gmail.com">aravindch156@gmail.com[cite: 1, 2]</a></li>
-                <li><strong>Phone:</strong> +91 6361639271[cite: 1, 2]</li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aravind-kumar-chittem-0a1982269/" target="_blank">aravind-kumar-chittem-0a1982269[cite: 1, 2]</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/aravindkumarchittem" target="_blank">aravindkumarchittem[cite: 1, 2]</a></li>
-                <li><strong>TryHackMe:</strong> <a href="https://tryhackme.com/p/aravindch156" target="_blank">aravindch156[cite: 2]</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Chittem Aravind Kumar. All rights reserved.</p>
-    </footer>
-
-</body>
-</html> -->
